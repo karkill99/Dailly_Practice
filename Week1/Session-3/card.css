@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+body{
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #ededef;
+    font-family: "Merriweather", serif;
+}
+.card{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    width: 330px;
+}
+
+input{
+    width: 100%;
+    box-sizing: border-box;
+    /* margin-top: 20px; */
+    padding: 10px;
+    border: ridge #6732fe 1px;
+    border-radius: 8px;
+    outline-color: #6732fe; 
+    font-size: medium;
+    text-align: center;
+}
+.comb-input{
+    border: solid #6732fe 1px;
+    border-radius: 8px;
+}
+.comb-input > div > input{
+    border: none;
+    outline: none;
+}
+span{
+    font-weight: lighter;
+}
+
+button{
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+}
+
+/* .hov-btn:hover{
+    background-color: #f51bb4;
+} */
