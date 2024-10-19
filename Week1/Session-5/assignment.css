@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    margin: 0;
+    /* padding: 0; */
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.flex{
+    display: flex;
+}
+
+.header{
+    border-bottom: 1px solid lightgrey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 960px;
+} 
+
+.logo{
+    width: 130px;
+    height: 60px;
+}
+
+.log-in-btn{
+    padding: 8px 15px;
+    background-color: #0097fc;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+}
+.log-in-btn:hover{
+    background-color: #017dcf;
+    cursor: pointer;
+}
+
+.sign-up-btn{
+    padding: 7px 15px;
+    background-color: white;
+    color: #0097fc;
+    border: none;
+    border-radius: 7px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.sign-up-btn:hover{
+    color: black;
+    cursor: pointer;
+}
+
+.main{
+    width: 960px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+.container{
+    margin-left: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    /* background-color: #0097fc; */
+}
+
+.logo-container{
+    width: 100px;
+    height: 100px;
+    padding: 30px;
+    border: 1px solid #eee;
+    border-radius: 50%;
+}
+
+.google-logo{
+    width: 100%;
+}
+
+.verified-svg{
+    height: 20px;
+    margin-left: 10px;
+}
+
+.page-info{
+    display: flex;
+    gap: 30px;
+}
+
+.acion-btn{
+    padding: 8px 17px;
+    font-size: 13px;
+    border: none;
+    border-radius: 7px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.acion-btn:hover{
+    background-color: lightgrey;
+    cursor:pointer;
+}
+
+.thread-btn{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 14px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+
+.link-png{
+    height: 12px;
+    margin-right: 10px;
+}
+
+.thread-logo{
+    height: 13px;
+}
+
+.link-btn{
+    text-decoration: none;
+    color: #244668;
+    font-weight: 500;
+}
+
+.about-page{
+    display: flex;
+    /* gap: 10px; */
+    justify-content: space-between;
+    /* font-size: 15px; */
+}
+
+.small-text{
+    font-size: 13px;
+}
+
+.medium-text{
+    font-size: 14px;
+    font-weight: 450;
+}
+
+.greylight-text{
+    color: grey;
+}
