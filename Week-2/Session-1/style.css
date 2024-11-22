@@ -22,7 +22,7 @@ body{
     background-color: rgba(0, 0, 0, 0.582);
     position: absolute;
     top: 0;
-    right: 0;
+    right: 0; 
     bottom: 0;
     left: 0;
 }
@@ -64,6 +64,7 @@ body{
     font-weight: bold;
     color: white;
     border: 1px solid grey;
+    cursor: pointer;
 }
 
 .sign-in-btn{
@@ -73,6 +74,7 @@ body{
     color: white;
     border: none;
     background-color: #e40915;
+    cursor: pointer;
 }
 
 .title{
@@ -119,5 +121,6 @@ body{
     border-radius: 5px;
     font-size: 20px;
     font-weight: bold;
+    cursor: pointer;
 }
 
