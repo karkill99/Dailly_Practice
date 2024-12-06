@@ -56,7 +56,7 @@ body{
 
 .sign-up-btn:hover{
     color: black;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .main{
